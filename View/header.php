@@ -2,10 +2,14 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>StarBucks</title>
+		<meta name="viewport" content="width:device-width, initial-scale=2, user-scalable=yes">
+		<meta name="author" content="Eduardo Alexandre">
+		<title>StarBucksFaker</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<linl rel="stylesheet" href="lib/carousel/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="lib/css/style.css">
+		<link rel="stylesheet" href="lib/css/mobile.css">
 	</head>
 	<body>
 		<header>
@@ -45,10 +49,11 @@
 			<div class="row">
 			<nav id="menu" class="pull-right">
 				<ul>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="#">Pedidos</a></li>
 					<li><a href="#">Novidades</a></li>
 					<li><a href="#">Cardápio</a></li>
-
+					<li><a href="videos.php">Vídeos</a></li>
 					<li class="search">
 						<div class="input-group">
 							<input type="text" class="form-control" placeholder="Proucurar..." id="input-search">

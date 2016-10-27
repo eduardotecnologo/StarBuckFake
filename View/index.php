@@ -11,41 +11,46 @@
 
 			</div>
 
-			<div id="sandwich" class="container"><!--Opções de sandwich-->
-			 <div class="row text-center">
-				<h2>Conheça nossos novos sanduíches</h2>
-			<hr>
-			 </div>
-			
-			<div class="row thumbnails">
-				<div class="col-md-3">
+			<div id="sandwich" class="container">
+				
+				<div class="row text-center">
+					<h2>Nossos Sandubas</h2>
+					<hr>	
+				</div>				
 
-					<img src="img/sand01.jpg" alt="Flatbread de Frango">
-					<h3>Flatbread de Frango, Flatbread de Frango, Flatbread de Frango</h3>
-					<time>Lançamento 20/10/2016</time>
-					
-				</div>
-				<div class="col-md-3">
-					<img src="img/sand02.jpg" alt="Flatbread de Roastbeef">
-					<h3>Flatbread de Roastbeef, Flatbread de Roastbeef, Flatbread de Roastbeef</h3>
-					<time>Lançamento 20/10/2016</time>
-					
-				</div>
-				<div class="col-md-3">
-					<img src="img/sand03.jpg" alt="Wrap Verde de Muçarela de Búfala">
-					<h3>Wrap Verde de Muçarela de Búfala, Wrap Verde de Muçarela de Búfala.</h3>
-					<time>Lançamento 20/10/2016</time>
-					
-				</div>
-				<div class="col-md-3">
-					<img src="img/sand04.jpg" alt="Toast de Presunto e Queijo">
-					<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
-					<time>Lançamento 20/10/2016</time>
-					
+				<div class="row thumbnails">
+					<div class="col-md-3">
+						
+						<img src="img/sand01.jpg" alt="sanduba">
+						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
+						<time>December 21, 2015</time>
+
+					</div>
+					<div class="col-md-3">
+						
+						<img src="img/sand02.jpg" alt="sanduba">
+						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
+						<time>December 21, 2015</time>
+
+					</div>
+					<div class="col-md-3">
+						
+						<img src="img/sand03.jpg" alt="sanduba">
+						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
+						<time>December 21, 2015</time>
+
+					</div>
+					<div class="col-md-3">
+						
+						<img src="img/sand04.jpg" alt="sanduba">
+						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
+						<time>December 21, 2015</time>
+
+					</div>
 				</div>
 
 			</div>
-			</div>
+
 
 <!--div id="sobre"-->
 			<div id="sobre">

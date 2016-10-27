@@ -64,13 +64,14 @@
 				</div>
 
 			<div class="row row-footer-botton">
-			<p class="pull-left text-footer">Copyrite StarBucks café 2016. All right reserved.</p>
+			<p class="pull-left text-footer">Copyrite StarBucksFaker café 2016. All right reserved.</p>
 			<p class="pull-right text-footer">Create by Eduardo ALexandre</p>
 				</div>
 			</div>
 		</footer>
 	
-		<script src="lib/jquery/jquery.js"></script>
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/carousel/owl-carousel/owl.carousel.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 		<script>
 			$(document).ready(function(){
@@ -84,11 +85,23 @@
 					$("#banner h1").removeClass("efect");
 
 				});
+				
 				$("#input-search").on("focus", function(){
+
 					$("li.search").addClass("true");
+
 				}).on("blur", function(){
+
 					$("li.search").removeClass("true");
 				});
+    
+                 	/*$(".thumbnails").owlCarousel({
+					 
+					      autoPlay: 3000, //Set AutoPlay to 3 seconds					 
+					      items : 4
+
+				});*/
+
 			});
 		</script>
 	</body>

@@ -9,26 +9,25 @@
 	font-size: 1em;
 }
 header{
-	width: 1600px;
+	width: 100%;
 	height: 150px;
-	background-color: #006B3E;
-	opacity: 0.9;
+	background:#008C46;
 	z-index: 2;
-	position: relative;
+    position: relative;
+    opacity: 0.9;
 }
 header .container {
 	position: relative;
 }
 header .header-white {
 	background-color: #fff;
-	width: 100%;
 	height: 40px;
 }
 header .header-white li{
 	background-image: url(../../img/topo-cafe.png);
 	background-repeat: no-repeat;
 	display: inline-block;
-	margin: 4px 8px; 
+	margin: 4px; 
 }
 /*Imagens do Topo*/
 header .header-white li.cafe-01 {
@@ -92,7 +91,7 @@ header #logostar {
 }
 #banner h1.efect{
 	color: #008C46;
-	font-size: 8em;
+	font-size: 10em;
 }
 /*Menu*/
 #menu {
@@ -122,7 +121,6 @@ header #logostar {
 #menu li.search ::-webkit-input-placeholder {
 	color: #FFF;
 }
-
 #menu li.search button {
 	height: 33px;
 	width: 60px
@@ -138,9 +136,9 @@ header #logostar {
 	top: 12px;
 }
 #banner{
-	width: 1600px;
-	height: 750px;
-	margin: auto;
+	width: 100%;
+	height: 728px;
+	position: relative;
 	position: relative;
 	background: url("../../img/banner.png") no-repeat;
 	top: -125px;
@@ -157,54 +155,55 @@ header #logostar {
 }
 #banner h1 small{
 	font-size: 32px;
-	color: #FFF;
 	display: block;
+	color: #FFF;
+	font-family: 'OpenSans';
+	font-weight: bold;
 }
 #sandwich{
 	position: relative;
-	top: -300px;
+	top: -110px;
+
 }
 #sandwich h2{
-	color: #008C46; #5E2799;
+	color: #008C46;	
 	font-family: 'OpenSans-Light';
 	font-size: 48px;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 35px;
 }
 #sandwich hr{
-	border: #72472A solid;
+	border: #72472A solid 2px;
 	width: 200px;
 	margin: 0 auto;
 }
 #sandwich .thumbnails {
-	margin-top: 90px;
+	margin-top: 20px;
 }
-#sandwich .thumbnails img{
-	width: 270px;
-	height: 200px;
-	
-}
-#sandwich .thumbnails h3{
+#sandwich .thumbnails h3 {
 	color: #000;
 	font-size: 18px;
 	font-family: 'OpenSans';
 	font-weight: bold;
+	margin-bottom: 0;
+	
 }
 #sandwich .thumbnails time{
 	color: #72472A
 	font-size: 18px;
 	font-family: 'OpenSans';
 }
+#sandwich .thumbnails .col-md-3{
+	padding: 10px;
+}
+#sandwich .thumbnails .col-md-3 img{
+	width: 100%;
+}
 #sobre {
 	background-color: #006B3E;
-	width:1600px;
+	width: 100%;
 	height: 200px;
 	text-align: center;
-	margin-top: 0px;
-}
-#sobre .container p{
-	margin-top: 30px;
 }
 #sobre p {
 	color: #FFF;
