@@ -16,36 +16,40 @@
 				<div class="row text-center">
 					<h2>Nossos Sandubas</h2>
 					<hr>	
-				</div>				
+				</div>
 
+<!--Button mobile-->
+					<button type="button" id="btn-sandwich-prev"><i class="fa fa-angle-left"></i></button>
+					<button type="button" id="btn-sandwich-next"><i class="fa fa-angle-right"></i></button>
+<!--Fim Button mobile-->
 				<div class="row thumbnails">
-					<div class="col-md-3">
-						
+					<div class="item">
+						<div class="item-inner">
 						<img src="img/sand01.jpg" alt="sanduba">
 						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
 						<time>December 21, 2015</time>
-
 					</div>
-					<div class="col-md-3">
-						
+					</div>
+					<div class="item">
+						<div class="item-inner">
 						<img src="img/sand02.jpg" alt="sanduba">
 						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
 						<time>December 21, 2015</time>
-
 					</div>
-					<div class="col-md-3">
-						
+					</div>
+					<div class="item">
+						<div class="item-inner">
 						<img src="img/sand03.jpg" alt="sanduba">
 						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
 						<time>December 21, 2015</time>
-
 					</div>
-					<div class="col-md-3">
-						
+					</div>
+					<div class="item">
+						<div class="item-inner">
 						<img src="img/sand04.jpg" alt="sanduba">
 						<h3>Toast Integral de Peru e Queijo Muçarela,Toast Integral de Peru eQueijo.</h3>
 						<time>December 21, 2015</time>
-
+					</div>
 					</div>
 				</div>
 

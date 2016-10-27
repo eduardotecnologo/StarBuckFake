@@ -2,7 +2,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width:device-width, initial-scale=2, user-scalable=yes">
+		<meta name="viewport" content="width:device-width, initial-scale=2">
 		<meta name="author" content="Eduardo Alexandre">
 		<title>StarBucksFaker</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
@@ -12,9 +12,11 @@
 		<link rel="stylesheet" href="lib/css/mobile.css">
 	</head>
 	<body>
+
 		<header>
+
 <!--Logo Principal-->
-				<div class="container">
+				<div class="container container-logo">
 			<img id="logostar" src="img/logo.png" alt="Logo">
 		</div>
 
@@ -22,6 +24,13 @@
 
 			<div class="header-white">
 				<div class="container">
+
+<!--css mobile-->
+						<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
+						<button id="btn-search" type="button"><i class="fa fa-search"></i></button>
+
+<!--Fim css mobile-->
+
 					<ul class="pull-right">
 						<li class="cafe-01"><a href="#"></a></li>
 						<li class="cafe-02"><a href="#"></a></li>

@@ -1,0 +1,139 @@
+/*Padrão para Tablets*/
+@media only screen and (max-width: 768px) {
+	.header-white ul{
+		display: none;
+	}
+}
+/*Padrão para Smarthfone*/
+@media only screen and (max-width: 480px) {
+	.header-white ul, #menu {  
+		display: none;
+	}
+	#logostar{
+		left: 35%;
+	}
+	#btn-bars, #btn-search {
+		color: #72472A;
+		font-size: 27px;
+		position: absolute;
+		top: 1px;
+		background: none; 
+		border:none;
+		display: block;
+	}
+	#btn-bars {
+		left: 3px;
+	}
+	#btn-search{
+		right: 3px;
+	}
+	#banner{
+	height: 317px;
+	background-size: cover; 
+	background-position: 0;
+	text-align: center;
+	top: -40px;
+}
+#banner h1 {
+	top: 195px;
+	font-size: 48px;
+	margin-left: 0;
+}
+#sandwich h2 {
+	margin-top: 100px;
+}
+#banner h1 small {
+	font-size: 22px;
+}
+.owl-carousel .owl-wrapper-outer {
+	margin-left: 15px;
+}
+.thumbnails {
+	text-align: center;
+}
+#sandwich .thumbnails .item-inner img {
+	width: 80%;
+	}
+#btn-sandwich-prev, #btn-sandwich-next {
+	background: none;
+	border: none;
+	color: #008C46;
+	font-size: 48px;
+	display: block;
+	position: absolute;
+	top: 290px;
+	z-index: 4;
+	outline: none;
+	}
+#btn-sandwich-next {
+	right: 10px;
+	}
+#sobre {
+	height: inherit;
+	}
+#call-to-action {
+	margin-top: 49px;
+	}
+#call-to-action hr {
+	border-width: 4px;
+	}
+#call-to-action p {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}	
+#call-to-action h2 {
+	font-size: 32px;
+	margin-left: 15px;
+	margin-right: 15px;
+	}		
+#footer {
+	margin-top: 60px;
+	}
+footer .row-footer-botton{
+	height: 75px;
+}	
+.copyright-mobile p {
+	font-size: 10px;
+	line-height: 0;
+	}
+footer .row p {
+	margin-top: -1px;
+	line-height: 20px;
+	}
+footer row {
+	margin: o;
+	}
+footer .list-socials{
+	position: absolute;
+	margin-top: 90px;
+	width: 100%;
+	left: 32px;
+}
+footer .list-socials a {
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	}
+footer .list-socials i {
+		font-size: 30px;
+	}
+footer .chevron{
+	font-size: 30px;
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	margin-top: 10px;
+	margin-left: 100px;
+	}
+footer .btn-footer{
+	width: 100%;
+	background-color: #008C46; 
+	height: 55px;
+	line-height: 44px;
+	margin-top: 20px
+	}
+}
+
+
