@@ -110,7 +110,8 @@ header #logostar {
 	width: 300px;
 }
 #menu li.search input{
-	background-color: #008C46; 
+	color: #72472A;
+    font: 16px verdana, arial, sans-serif;
 	border: none;
 	height: 33px;
 	line-height: 30px;
@@ -118,8 +119,9 @@ header #logostar {
 #menu li.search.true input{
 	width: 300px;
 }
-#menu li.search ::-webkit-input-placeholder {
+#menu li.search ::-webkit-input-placeholder, ::-moz-placeholder {
 	color: #FFF;
+	text-decoration-color: #fff;
 }
 #menu li.search button {
 	height: 33px;
@@ -292,7 +294,7 @@ footer .text-footer{
 	font-weight: bold;
 }
 footer .logostar{
-	margin-top: 28px;
+	margin-top: 11px;
 	margin-left: -100px;
 }
 footer .col-popular-post,
@@ -383,7 +385,9 @@ video {
 #btn-sandwich-prev, #btn-sandwich-next {
 	display: none; 	
 }
-
+.page-up {
+	display: none!important;
+}
 
 
 

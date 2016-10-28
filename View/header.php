@@ -13,7 +13,34 @@
 	</head>
 	<body>
 
+
+<!--Menu mobile-->
 		<header>
+
+		<div id="menu-mobile-mask" class="visible-xs">
+			
+		</div>
+
+		<div id="menu-mobile" class="visible-xs">
+
+<!--Menu mobile visible-->
+
+		   		<ul class="list-unstyled">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Pedidos</a></li>
+					<li><a href="#">Novidades</a></li>
+					<li><a href="#">Cardápio</a></li>
+					<li><a href="videos.php">Vídeos</a></li>
+				</ul>
+
+				<div class="bar-close">
+					<button type="button" class="btn btn-close"><i class="fa fa-close"></i></button>
+				</div>
+
+<!--Fim Menu mobile visible-->
+			
+		</div>
+<!--Fim Menu mobile-->
 
 <!--Logo Principal-->
 				<div class="container container-logo">
@@ -23,7 +50,16 @@
 <!--Imagens do Topo-->
 
 			<div class="header-white">
+
+
 				<div class="container">
+
+
+<!-- Input Mobile -->
+
+			<input type="search" id="input-search-mobile" class="visible-xs" placeholder="Pesquisar...">
+
+<!-- Fim Input Mobile -->
 
 <!--css mobile-->
 						<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
